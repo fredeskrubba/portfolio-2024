@@ -1,0 +1,28 @@
+body{
+    background-color: #fefefe;
+    margin: 0;
+    padding: 0;
+    color: #035E7B;
+    font-family: "MainFont";
+}
+
+@font-face {
+    font-family: 'MainFont';
+    src: url('../font/ChakraPetch-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MainFont';
+    src: url('../font/ChakraPetch-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'MainFont';
+    src: url('../font/ChakraPetch-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: light;
+}

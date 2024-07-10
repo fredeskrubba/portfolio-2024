@@ -1,10 +1,11 @@
 import '../src/styles/App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1>initial commit</h1>
+      <Navbar/>
     </>
   )
 }

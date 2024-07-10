@@ -1,0 +1,17 @@
+nav{
+    border-bottom: 5px solid #035E7B;
+}
+
+nav h1{
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        padding: 5px;
+    }
+    nav h1{
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
