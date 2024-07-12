@@ -17,23 +17,23 @@ nav h1{
         font-size: 18px;
         font-weight: 700;
     }
-}
-
-.flex-container{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 5px;
-}
-
-.flex-container svg{
-    fill: #035E7B;
-    display: block;
-    width: 30px;
-    height: 30px;
-}
-
-
-.flex-container svg:hover{
-    fill: #5F98AB;
+    
+    .flex-container{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    
+    .flex-container svg{
+        fill: #035E7B;
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    .flex-container svg:hover{
+        fill: #5F98AB;
+    }
 }

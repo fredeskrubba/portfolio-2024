@@ -9,8 +9,12 @@ body{
 @font-face {
     font-family: 'MainFont';
     src: url('../font/ChakraPetch-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'MainFont';
+    src: url('../font/ChakraPetch-Medium.ttf') format('truetype');
+    font-weight: 600;
 }
 
 @font-face {

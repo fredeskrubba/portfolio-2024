@@ -1,6 +1,6 @@
 import "../styles/navbar.css";
-import LinkedInIcon from "../assets/linkedin-icon.svg?react";
-import  GithubIcon from "../assets/github-icon.svg?react";
+import LinkedInIcon from "../assets/icons/linkedin-icon.svg?react";
+import  GithubIcon from "../assets/icons/github-icon.svg?react";
 
 const Navbar = () => {
   return (
