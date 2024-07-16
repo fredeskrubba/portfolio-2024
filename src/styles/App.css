@@ -6,6 +6,9 @@ body{
     font-family: "MainFont";
 }
 
+p {
+    font-weight: 600;
+}
 @font-face {
     font-family: 'MainFont';
     src: url('../font/ChakraPetch-Regular.ttf') format('truetype');
