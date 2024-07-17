@@ -27,12 +27,12 @@ const About = () => {
 
     ]
     return (
-        <main id="about-section">
+        <section id="about-section">
             <div className="section-collapsable">
                 <h2>Om mig</h2>
                 <ArrowIcon/>
             </div>
-            <article>
+            <article className="section-intro">
                 <p>I en tidsalder hvor få ting er så vigtige, som en stærk online tilstedeværelse, er dygtige og engagerede udviklere vigtigere end nogensinde før. Som uddannet webudvikler og datamatiker, med tre års erhvervserfaring har jeg kastet mig ind i kampen med hovedet først. I mit repetoir kan man blandt andet finde følgende:</p>
             </article>
             <article id="skills-container">
@@ -43,7 +43,7 @@ const About = () => {
             <button type="button" className="see-more">
                 Se mere
             </button>
-        </main>
+        </section>
     )
 }
 

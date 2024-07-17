@@ -4,38 +4,11 @@
         padding: 10px;
     }
     
-    #about-section .section-collapsable {
-        border-bottom: 2px solid #035E7B;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    
-    #about-section .section-collapsable h2 {
-        font-size: 20px;
-        margin: 5px 0;
-    }
-    
-    #about-section .section-collapsable svg {
-        width: 20px;
-        height: 20px;
-    }
 
-    #about-section .section-collapsable svg:hover {
-       cursor: pointer;
+    #about-section .section-intro {
+        margin-bottom: 40px;
     }
-
-    #about-section .see-more {
-       border: 1px #035E7B solid;
-       background-color: #fefefe;
-       color: #035E7B;
-       width: 100%;
-       padding: 10px 0;
-       font-size: 20px;
-       font-weight: 600;
-       margin-top: 15px;
-    }
+    
 
     #about-section #skills-container {
         display: flex;
@@ -49,7 +22,7 @@
         justify-content: space-between;
     }
     #about-section #skills-container .skill h3{
-       margin: 5PX;
+       margin: 5px;
     }
 
 }
