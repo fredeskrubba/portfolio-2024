@@ -1,6 +1,7 @@
 import "../../styles/projects.css"
 import ArrowIcon from "../../assets/icons/arrow-icon.svg?react";
 import Project from "./Project";
+import IMAGES from "../../assets/images/Images";
 
 
 const Projects = () => {
@@ -15,8 +16,9 @@ const Projects = () => {
                 "Javascript",
                 "#C#"
             ],
-            githubLink: "www.google.dk",
-            demoLink: "www.dr.dk",
+            githubLink: "https://www.google.com/",
+            demoLink: "https://www.dr.dk/drtv/",
+            image: IMAGES.projectImage, 
             id: 1
         }
     ]
@@ -29,7 +31,7 @@ const Projects = () => {
             </div>
 
             <article id="projects-container">
-                {projectsArray.map((project) => <Project title={project.title} description={project.description} tags={project.tags} githubLink={project.githubLink} demoLink={project.demoLink} key={project.id}/>)}
+                {projectsArray.map((project) => <Project title={project.title} description={project.description} tags={project.tags} githubLink={project.githubLink} demoLink={project.demoLink} image={project.image} key={project.id}/>)}
             </article>
             <button type="button" className="see-more">
                 Se mere

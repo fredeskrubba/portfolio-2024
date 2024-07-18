@@ -23,6 +23,14 @@
         margin-top: 20px;
     }
 
+    #projects-section #projects-container .project img {
+        display: block;
+        height: 130px;
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
     #projects-section #projects-container .project .project-info {
         border-bottom: 1px solid #035E7B;
         padding: 10px;
