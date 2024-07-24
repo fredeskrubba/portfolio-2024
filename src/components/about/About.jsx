@@ -1,5 +1,5 @@
 import "../../styles/about.css"
-
+import { useState } from "react";
 import ArrowIcon from "../../assets/icons/arrow-icon.svg?react";
 import htmlIcon from "../../assets/icons/html-icon.svg?react";
 import cssIcon from "../../assets/icons/css-icon.svg?react";
@@ -26,23 +26,33 @@ const About = () => {
         },
 
     ]
+
+    const [showSection, setShowSection] = useState(true)
+
     return (
         <section id="about-section">
             <div className="section-collapsable">
                 <h2>Om mig</h2>
-                <ArrowIcon/>
+                <ArrowIcon className={showSection ? "" : "rotate-arrow"} onClick={()=> {
+                    setShowSection(!showSection)
+                }}/>
             </div>
-            <article className="section-intro">
-                <p>I en tidsalder hvor få ting er så vigtige, som en stærk online tilstedeværelse, er dygtige og engagerede udviklere vigtigere end nogensinde før. Som uddannet webudvikler og datamatiker, med tre års erhvervserfaring har jeg kastet mig ind i kampen med hovedet først. I mit repetoir kan man blandt andet finde følgende:</p>
-            </article>
-            <article id="skills-container">
-                {
-                    skills.map((skill)=><Skill title={skill.title} Icon={skill.icon} key={skill.id}/>)
-                }
-            </article>
-            <button type="button" className="see-more">
-                Se mere
-            </button>
+            {
+                showSection && 
+                <>
+                    <article className="section-intro">
+                        <p>I en tidsalder hvor få ting er så vigtige, som en stærk online tilstedeværelse, er dygtige og engagerede udviklere vigtigere end nogensinde før. Som uddannet webudvikler og datamatiker, med tre års erhvervserfaring har jeg kastet mig ind i kampen med hovedet først. I mit repetoir kan man blandt andet finde følgende:</p>
+                    </article>
+                    <article id="skills-container">
+                        {
+                            skills.map((skill)=><Skill title={skill.title} Icon={skill.icon} key={skill.id}/>)
+                        }
+                    </article>
+                    <button type="button" className="see-more">
+                        Se mere
+                    </button>                
+                </>
+            }
         </section>
     )
 }

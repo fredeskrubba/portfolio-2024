@@ -10,6 +10,10 @@ p {
     font-weight: 600;
 }
 
+.rotate-arrow {
+    transform: rotate(270deg);
+}
+
 @media only screen and (max-width: 600px) {
     .section-collapsable {
         border-bottom: 2px solid #035E7B;
