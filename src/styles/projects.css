@@ -3,31 +3,27 @@
         padding: 10px;
     }
     
-    #projects-section-tablet {
-        display: none;
-    }
-    
-    #projects-section-mobile #projects-container {
+    #projects-section #projects-container {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
 
-    #projects-section-mobile #projects-container .project {
+    #projects-section #projects-container .project {
         display: flex;
         flex-direction: column;
         border: 1px solid #035E7B;
         margin-top: 20px;
     }
 
-    #projects-section-mobile #projects-container .project {
+    #projects-section #projects-container .project {
         display: flex;
         flex-direction: column;
         border: 1px solid #035E7B;
         margin-top: 20px;
     }
 
-    #projects-section-mobile #projects-container .project img {
+    #projects-section #projects-container .project img {
         display: block;
         height: 130px;
         width: 100%;
@@ -35,21 +31,21 @@
         
     }
 
-    #projects-section-mobile #projects-container .project .project-info {
+    #projects-section #projects-container .project .project-info {
         border-bottom: 1px solid #035E7B;
         padding: 10px;
     }
 
-    #projects-section-mobile #projects-container .project .project-info h3 {
+    #projects-section #projects-container .project .project-info h3 {
         margin: 0;
     }
 
-    #projects-section-mobile #projects-container .project .project-info .project-tags {
+    #projects-section #projects-container .project .project-info .project-tags {
         display: flex;
         gap: 20px;
     }
 
-    #projects-section-mobile #projects-container .project .project-links {
+    #projects-section #projects-container .project .project-links {
        display: flex;
        justify-content: space-between;
        align-items: center;
@@ -57,14 +53,14 @@
     }
 
 
-    #projects-section-mobile #projects-container .project .project-links svg {
+    #projects-section #projects-container .project .project-links svg {
        fill: #035E7B;
        display: block;
        height: 30px;
        width: 30px;
     }
 
-    #projects-section-mobile #projects-container .project .project-links button {
+    #projects-section #projects-container .project .project-links button {
        color: #035E7B;
        background-color: #fefefe;
        font-weight: 700; 
@@ -73,10 +69,4 @@
        padding: 0 15px;
     }
 
-}
-
-@media only screen and (min-width: 768px) {
-    #projects-section-mobile{
-        display: none;
-    }
 }
