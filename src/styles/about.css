@@ -1,28 +1,39 @@
 @media only screen and (max-width: 600px) {
 
-    #about-section {
+    #about-section-mobile {
         padding: 10px;
     }
     
+    #about-section-tablet{
+        display: none;
+    }
 
-    #about-section .section-intro {
+    #about-section-mobile .section-intro {
         margin-bottom: 40px;
     }
     
 
-    #about-section #skills-container {
+    #about-section-mobile #skills-container {
         display: flex;
         justify-content: space-between;
     }
 
-    #about-section #skills-container .skill{
+    #about-section-mobile #skills-container .skill{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
-    #about-section #skills-container .skill h3{
+    #about-section-mobile #skills-container .skill h3{
        margin: 5px;
     }
 
+}
+
+@media only screen and (min-width: 768px) {
+    #about-section-mobile{
+        display: none;
+    }
+
+    
 }
