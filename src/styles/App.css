@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+}
+
+
 body{
     background-color: #fefefe;
     margin: 0;
@@ -46,8 +51,21 @@ p {
         font-weight: 600;
         margin-top: 15px;
      }
+
+     .tablet-sections{
+        display: none;
+     }
 }
 
+@media only screen and (min-width: 768px) {
+    .mobile-sections{
+        display: none;
+    }
+
+    .tablet-sections {
+        padding-top: 150px;
+    }
+}
 
 @font-face {
     font-family: 'MainFont';
