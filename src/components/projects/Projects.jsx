@@ -1,29 +1,12 @@
 import "../../styles/projects.css"
 import ArrowIcon from "../../assets/icons/arrow-icon.svg?react";
 import Project from "./Project";
-import IMAGES from "../../assets/images/Images";
 import { useState } from "react";
 
 
-const Projects = () => {
+const Projects = ({projectsArray}) => {
 
     const [showSection, setShowSection] = useState(false)
-    const projectsArray = [
-        {
-            title: "Projekt 1",
-            description: "Beskrivelse på dette første projekt som linker til en live demo og github",
-            tags: [
-                "#HTML",
-                "#CSS",
-                "Javascript",
-                "#C#"
-            ],
-            githubLink: "https://www.google.com/",
-            demoLink: "https://www.dr.dk/drtv/",
-            image: IMAGES.projectImage, 
-            id: 1
-        }
-    ]
 
     return ( 
         <section id="projects-section">

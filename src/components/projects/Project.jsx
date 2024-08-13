@@ -6,8 +6,10 @@ const Project = ({title, description, tags, githubLink, demoLink, image}) => {
         <div className="project">
             <img src={image} alt="project-preview" />
             <article className="project-info">
-                <h3>{title}</h3>
-                <p>{description}</p>
+                <article>
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                </article>
                 <article className="project-tags">
                     {tags.map((tag, i)=> <p key={i}>{tag}</p>)}
                 </article>
